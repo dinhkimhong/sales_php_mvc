@@ -1,0 +1,19 @@
+{
+	"Guest":{
+		"denied" : {},
+		"Home" : ["index"],
+		"Auth" : ["login"],
+		"Restricted" : ["*"]
+	},
+	"LoggedIn" : {
+		"denied" : {
+			"Auth": ["login"]
+		},
+		"Dashboard":["index"],
+		"Auth" : ["logout"],
+		"Customer" : ["create","new","view","update","delete","index","info"],
+		"Sales":["create","new","view","update","delete"],
+		"Material":["info","index"],
+		"Outbound":["index","create","new"]
+	}
+}
